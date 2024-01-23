@@ -3,7 +3,7 @@ export default function Materi1() {
     <div className=" max-w-full lg:max-w-6xl m-auto">
       <section className="bg-white shadow-lg  h-screen">
         <div className=" flex flex-col items-center px-4 py-12 mx-auto text-center h-full">
-          <div className=" h-full overflow-y-auto">
+          <div className=" h-full overflow-y-auto text-justify">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto
             beatae, ullam dolores dicta odio voluptatibus nemo asperiores iusto
             eaque dolorum quod aperiam at alias omnis neque accusantium suscipit
