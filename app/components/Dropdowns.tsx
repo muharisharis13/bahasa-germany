@@ -9,11 +9,11 @@ function classNames(...classes: any) {
 
 interface Props {
   options?: Array<any>;
-  onChange?: (props: any) => void;
+  onChange?: any;
   value?: any;
 }
 
-export default function Dropdown({ options, onChange, value }: Props) {
+export default function Dropdown({ options = [], onChange, value }: Props) {
   return (
     <Menu as="div" className="relative inline-block text-left w-[10vw]">
       <div>

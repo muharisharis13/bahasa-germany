@@ -42,7 +42,7 @@ const Latihan1 = () => {
           <Dropdowns
             options={acakArray(options5)}
             value={selectedJawaban.lima.a}
-            onChange={(value) => {
+            onChange={(value: any) => {
               updateJawabanOption("a", value, "lima");
             }}
           />
@@ -75,13 +75,14 @@ const Latihan1 = () => {
               : " text-black"
           }`}
         >
-          Ani : Ich bin ... (ii)... dem Bus Palansia" nach Parapat gefahren.
+          Ani : Ich bin ... (ii)... dem Bus Palansia&quot; nach Parapat
+          gefahren.
         </div>
         <div className=" mb-2">
           <Dropdowns
             options={acakArray(options5)}
             value={selectedJawaban.lima.b}
-            onChange={(value) => {
+            onChange={(value: any) => {
               updateJawabanOption("b", value, "lima");
             }}
           />
@@ -120,7 +121,7 @@ const Latihan1 = () => {
           <Dropdowns
             options={acakArray(options5)}
             value={selectedJawaban.lima.c}
-            onChange={(value) => {
+            onChange={(value: any) => {
               updateJawabanOption("c", value, "lima");
             }}
           />
@@ -163,7 +164,7 @@ const Latihan1 = () => {
           <Dropdowns
             options={acakArray(options5)}
             value={selectedJawaban.lima.d}
-            onChange={(value) => {
+            onChange={(value: any) => {
               updateJawabanOption("d", value, "lima");
             }}
           />
@@ -311,7 +312,7 @@ const Latihan1 = () => {
                     <Dropdowns
                       options={acakArray(options1)}
                       value={selectedJawabanSatu.a}
-                      onChange={(value) => {
+                      onChange={(value: any) => {
                         updateJawabanSatuOption("a", value);
                       }}
                     />
@@ -345,7 +346,9 @@ const Latihan1 = () => {
                     <Dropdowns
                       options={acakArray(options1)}
                       value={selectedJawabanSatu.b}
-                      onChange={(value) => updateJawabanSatuOption("b", value)}
+                      onChange={(value: any) =>
+                        updateJawabanSatuOption("b", value)
+                      }
                     />
                   </span>
                   <p>
@@ -377,7 +380,9 @@ const Latihan1 = () => {
                     <Dropdowns
                       options={acakArray(options1)}
                       value={selectedJawabanSatu.c}
-                      onChange={(value) => updateJawabanSatuOption("c", value)}
+                      onChange={(value: any) =>
+                        updateJawabanSatuOption("c", value)
+                      }
                     />
                   </span>
                 </div>
@@ -404,7 +409,9 @@ const Latihan1 = () => {
                     <Dropdowns
                       options={acakArray(options1)}
                       value={selectedJawabanSatu.d}
-                      onChange={(value) => updateJawabanSatuOption("d", value)}
+                      onChange={(value: any) =>
+                        updateJawabanSatuOption("d", value)
+                      }
                     />
                   </span>
                   <p>
@@ -436,7 +443,9 @@ const Latihan1 = () => {
                     <Dropdowns
                       options={acakArray(options1)}
                       value={selectedJawabanSatu.e}
-                      onChange={(value) => updateJawabanSatuOption("e", value)}
+                      onChange={(value: any) =>
+                        updateJawabanSatuOption("e", value)
+                      }
                     />
                   </span>
                   <p>
@@ -472,7 +481,7 @@ const Latihan1 = () => {
                     <Dropdowns
                       options={acakArray(options2)}
                       value={selectedJawabanDua.a}
-                      onChange={(value) => {
+                      onChange={(value: any) => {
                         updateJawabanOption("a", value, "dua");
                       }}
                     />
@@ -506,7 +515,7 @@ const Latihan1 = () => {
                     <Dropdowns
                       options={acakArray(options2)}
                       value={selectedJawabanDua.b}
-                      onChange={(value) => {
+                      onChange={(value: any) => {
                         updateJawabanOption("b", value, "dua");
                       }}
                     />
@@ -538,7 +547,7 @@ const Latihan1 = () => {
                     <Dropdowns
                       options={acakArray(options2)}
                       value={selectedJawabanDua.c}
-                      onChange={(value) => {
+                      onChange={(value: any) => {
                         updateJawabanOption("c", value, "dua");
                       }}
                     />
@@ -572,7 +581,7 @@ const Latihan1 = () => {
                     <Dropdowns
                       options={acakArray(options2)}
                       value={selectedJawabanDua.d}
-                      onChange={(value) => {
+                      onChange={(value: any) => {
                         updateJawabanOption("d", value, "dua");
                       }}
                     />
@@ -606,7 +615,7 @@ const Latihan1 = () => {
                     <Dropdowns
                       options={acakArray(options2)}
                       value={selectedJawabanDua.e}
-                      onChange={(value) => {
+                      onChange={(value: any) => {
                         updateJawabanOption("e", value, "dua");
                       }}
                     />
@@ -647,7 +656,7 @@ const Latihan1 = () => {
                     <Dropdowns
                       options={acakArray(options3)}
                       value={selectedJawaban.tiga.a}
-                      onChange={(value) => {
+                      onChange={(value: any) => {
                         updateJawabanOption("a", value, "tiga");
                       }}
                     />
@@ -681,7 +690,7 @@ const Latihan1 = () => {
                     <Dropdowns
                       options={acakArray(options3)}
                       value={selectedJawaban.tiga.b}
-                      onChange={(value) => {
+                      onChange={(value: any) => {
                         updateJawabanOption("b", value, "tiga");
                       }}
                     />
@@ -715,7 +724,7 @@ const Latihan1 = () => {
                     <Dropdowns
                       options={acakArray(options3)}
                       value={selectedJawaban.tiga.c}
-                      onChange={(value) => {
+                      onChange={(value: any) => {
                         updateJawabanOption("c", value, "tiga");
                       }}
                     />
@@ -749,7 +758,7 @@ const Latihan1 = () => {
                     <Dropdowns
                       options={acakArray(options3)}
                       value={selectedJawaban.tiga.d}
-                      onChange={(value) => {
+                      onChange={(value: any) => {
                         updateJawabanOption("d", value, "tiga");
                       }}
                     />
@@ -783,7 +792,7 @@ const Latihan1 = () => {
                     <Dropdowns
                       options={acakArray(options3)}
                       value={selectedJawaban.tiga.e}
-                      onChange={(value) => {
+                      onChange={(value: any) => {
                         updateJawabanOption("e", value, "tiga");
                       }}
                     />
@@ -827,7 +836,7 @@ const Latihan1 = () => {
                     <Dropdowns
                       options={acakArray(options4)}
                       value={selectedJawaban.empat.a}
-                      onChange={(value) => {
+                      onChange={(value: any) => {
                         updateJawabanOption("a", value, "empat");
                       }}
                     />
@@ -864,7 +873,7 @@ const Latihan1 = () => {
                     <Dropdowns
                       options={acakArray(options4)}
                       value={selectedJawaban.empat.b}
-                      onChange={(value) => {
+                      onChange={(value: any) => {
                         updateJawabanOption("b", value, "empat");
                       }}
                     />
@@ -901,7 +910,7 @@ const Latihan1 = () => {
                     <Dropdowns
                       options={acakArray(options4)}
                       value={selectedJawaban.empat.c}
-                      onChange={(value) => {
+                      onChange={(value: any) => {
                         updateJawabanOption("c", value, "empat");
                       }}
                     />
@@ -938,7 +947,7 @@ const Latihan1 = () => {
                     <Dropdowns
                       options={acakArray(options4)}
                       value={selectedJawaban.empat.d}
-                      onChange={(value) => {
+                      onChange={(value: any) => {
                         updateJawabanOption("d", value, "empat");
                       }}
                     />
@@ -975,7 +984,7 @@ const Latihan1 = () => {
                     <Dropdowns
                       options={acakArray(options4)}
                       value={selectedJawaban.empat.e}
-                      onChange={(value) => {
+                      onChange={(value: any) => {
                         updateJawabanOption("e", value, "empat");
                       }}
                     />
@@ -1077,7 +1086,7 @@ const Latihan1 = () => {
                         <Dropdowns
                           options={acakArray(options6)}
                           value={selectedJawaban.enam.a}
-                          onChange={(value) => {
+                          onChange={(value: any) => {
                             updateJawabanOption("a", value, "enam");
                           }}
                         />
@@ -1111,7 +1120,7 @@ const Latihan1 = () => {
                         <Dropdowns
                           options={acakArray(options6)}
                           value={selectedJawaban.enam.b}
-                          onChange={(value) => {
+                          onChange={(value: any) => {
                             updateJawabanOption("b", value, "enam");
                           }}
                         />
@@ -1147,7 +1156,7 @@ const Latihan1 = () => {
                         <Dropdowns
                           options={acakArray(options6)}
                           value={selectedJawaban.enam.c}
-                          onChange={(value) => {
+                          onChange={(value: any) => {
                             updateJawabanOption("c", value, "enam");
                           }}
                         />
@@ -1183,7 +1192,7 @@ const Latihan1 = () => {
                         <Dropdowns
                           options={acakArray(options6)}
                           value={selectedJawaban.enam.d}
-                          onChange={(value) => {
+                          onChange={(value: any) => {
                             updateJawabanOption("d", value, "enam");
                           }}
                         />
@@ -1217,7 +1226,7 @@ const Latihan1 = () => {
                         <Dropdowns
                           options={acakArray(options6)}
                           value={selectedJawaban.enam.e}
-                          onChange={(value) => {
+                          onChange={(value: any) => {
                             updateJawabanOption("e", value, "enam");
                           }}
                         />

@@ -131,7 +131,7 @@ export default function Materi1() {
                   </li>
                   <li className=" mb-4">
                     e. <i>Ich treffle dich heute beim Geschäft Alfasahat</i>{" "}
-                    (Saya menemuimu hari ini di dekat toko 'Alfasähat).
+                    (Saya menemuimu hari ini di dekat toko &apos;Alfasähat).
                   </li>
                   <li className=" mb-4">
                     f. <i>Die Tochter läuft seinem Vater entgegen</i> (Anak
@@ -300,8 +300,8 @@ export default function Materi1() {
                       anlä ßlich des 7. Todestages seiner schönen Frau ein, um
                       zusammen aus dem Koran zu lesen (Pak Haji yang baik hati
                       itu mengundang tetangganya yang beragama Islam untuk
-                      membaca Alqur'an bersama di rumahnya sehubungan dengan
-                      tujuh hari kematian istrinya yang cantik).
+                      membaca Alqur&apos;an bersama di rumahnya sehubungan
+                      dengan tujuh hari kematian istrinya yang cantik).
                     </li>
                     <li className=" mb-4">
                       b. Jetzt wohnt Herr Sahat außerhalb der grossen Stadt
@@ -372,8 +372,8 @@ export default function Materi1() {
                     </li>
                     <li className=" mb-4">
                       q. Unweit des Medans HauptbahnhofsStasiun Kereta Api Medah
-                      ist ein großes Hotel (Tidak jauh dari'Stasiun Kereta Api
-                      Medari adalah sebuah hotel besar).
+                      ist ein großes Hotel (Tidak jauh dari&apos;Stasiun Kereta
+                      Api Medari adalah sebuah hotel besar).
                     </li>
                     <li className=" mb-4">
                       r. Angesichts seiner Arroganz habe ich keine Lust mehr,
@@ -382,8 +382,8 @@ export default function Materi1() {
                     </li>
                     <li className=" mb-4">
                       s. Aufgrund des Ergebnisses der Prüfung und der Semester
-                      aufgabe bekommt er die Note 'E' (Berdasarkan hasil ujian
-                      dan tugas semester dia mendapat nilai E).
+                      aufgabe bekommt er die Note &apos;E&apos; (Berdasarkan
+                      hasil ujian dan tugas semester dia mendapat nilai E).
                     </li>
                     <li className=" mb-4">
                       t. Der Gesundheit halber hört der Parkwächter auf zu
