@@ -1,11 +1,20 @@
 "use client";
 import Link from "next/link";
 import { useStore } from "./zustand";
+import bgBook from "@/public/bg_book.jpg";
 export default function Home() {
   const { namaMahasiswa, nimMahasiswa, handle } = useStore();
   return (
-    <div className=" h-[100vh] m-auto flex items-center justify-center bg-slate-300">
-      <div className="w-full max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-md ">
+    <div
+      className=" h-[100vh] m-auto flex items-baseline pt-24 justify-center bg-slate-300"
+      style={{
+        backgroundImage: `url(${bgBook.src})`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "800px",
+        backgroundPosition: "center",
+      }}
+    >
+      <div className="w-full max-w-sm mx-auto overflow-hidden bg-white/50 backdrop-blur-sm rounded-lg shadow-md ">
         <div className="px-6 py-4">
           <p className="mt-1 text-center text-gray-500 ">
             Masukkan Data Diri !

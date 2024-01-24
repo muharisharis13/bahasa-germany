@@ -4,6 +4,7 @@ import LoadingPage from "../components/LoadingPage";
 import { useStore } from "../zustand";
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
+import bgMateri from "@/public/background_materi.jpg";
 
 const Latihan1 = () => {
   const router = useRouter();
@@ -284,9 +285,17 @@ const Latihan1 = () => {
   };
 
   return (
-    <div className=" max-w-full lg:max-w-6xl m-auto ">
+    <div
+      className="  bg-slate-200"
+      style={{
+        backgroundImage: `url(${bgMateri.src})`,
+        backgroundRepeat: "repeat",
+        backgroundSize: "50%",
+        backgroundPosition: "center",
+      }}
+    >
       {loadingPage && <LoadingPage />}
-      <section className="bg-white shadow-lg min-h-[100vh] border-t-8 border-teal-500">
+      <section className="bg-white/95 backdrop-blur-sm shadow-lg min-h-[100vh] border-t-8 border-teal-500 max-w-full lg:max-w-6xl m-auto">
         <div className=" flex flex-col items-start px-2 lg:px-10 py-12 mx-auto text-left h-full">
           <div className=" min-h-[100vh] text-left">
             <h4 className=" font-bold">Latihan</h4>
@@ -1258,7 +1267,7 @@ const Latihan1 = () => {
                 onClick={handleLatihanSelanjut}
                 className="inline-flex items-center justify-center w-full px-6 py-2 text-white duration-300 bg-blue-600 rounded-lg hover:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80"
               >
-                Lanjut ke materi 2
+                Lihat Hasil
               </button>
             </div>
           )}

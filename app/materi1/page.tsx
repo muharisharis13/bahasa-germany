@@ -1,17 +1,23 @@
-import image1Materi1 from "@/public/Picture1_materi1.jpg";
-import image1Materi2 from "@/public/Picture2_materi1.png";
-import image1Materi3 from "@/public/Picture3_materi1.png";
-import image1Materi4 from "@/public/Picture4_materi1.png";
+"use client";
 import Image from "next/image";
 import Link from "next/link";
+import bgMateri from "@/public/background_materi.jpg";
 
 export default function Materi1() {
   return (
-    <div className=" max-w-full lg:max-w-6xl m-auto bg-slate-200">
-      <section className="bg-white shadow-lg ">
+    <div
+      className="   bg-slate-200"
+      style={{
+        backgroundImage: `url(${bgMateri.src})`,
+        backgroundRepeat: "repeat",
+        backgroundSize: "50%",
+        backgroundPosition: "center",
+      }}
+    >
+      <section className="bg-white/95 backdrop-blur-sm shadow-lg max-w-full lg:max-w-6xl m-auto">
         <div className=" px-2 lg:px-10 py-12 mx-auto  h-full">
           <div className=" h-full overflow-y-auto text-justify  min-h-[100vh]">
-            <div className="header1 font-bold text-xl items-center text-center mb-5">
+            <div className="header1 font-bold text-3xl items-center text-center mb-5">
               BAB I PREPOSISI <i>(die Präpositionen)</i>
             </div>
             <div className="point1 mb-5">
