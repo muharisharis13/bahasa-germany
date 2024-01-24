@@ -3,8 +3,10 @@ import Dropdowns from "../components/Dropdowns";
 import LoadingPage from "../components/LoadingPage";
 import { useStore } from "../zustand";
 import React, { useState } from "react";
+import { useRouter } from "next/navigation";
 
 const Latihan1 = () => {
+  const router = useRouter();
   const [points, setPoints] = useState(0);
   const PercakapanA = () => {
     return (
@@ -118,10 +120,14 @@ const Latihan1 = () => {
     };
   };
 
+  const handleLatihanSelanjut = () => {
+    handle("nilai", points);
+    router.push("/result");
+  };
+
   return (
     <div className=" max-w-full lg:max-w-6xl m-auto ">
       {loadingPage && <LoadingPage />}
-      {JSON.stringify(points)}
       <section className="bg-white shadow-lg min-h-[100vh]">
         <div className=" flex flex-col items-start px-2 lg:px-10 py-12 mx-auto text-left h-full">
           <div className=" min-h-[100vh] text-left">
@@ -664,12 +670,12 @@ const Latihan1 = () => {
             </div>
           ) : (
             <div className="inline-flex w-full mt-6 sm:w-auto">
-              <a
-                href="#"
+              <button
+                onClick={handleLatihanSelanjut}
                 className="inline-flex items-center justify-center w-full px-6 py-2 text-white duration-300 bg-blue-600 rounded-lg hover:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80"
               >
                 Lanjut ke materi 2
-              </a>
+              </button>
             </div>
           )}
         </div>

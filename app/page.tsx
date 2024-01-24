@@ -1,5 +1,8 @@
+"use client";
 import Link from "next/link";
+import { useStore } from "./zustand";
 export default function Home() {
+  const { namaMahasiswa, nimMahasiswa, handle } = useStore();
   return (
     <div className=" h-[100vh] m-auto flex items-center justify-center bg-slate-300">
       <div className="w-full max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-md ">
@@ -15,6 +18,8 @@ export default function Home() {
                 type="text"
                 placeholder="Nama Mahasiswa"
                 aria-label="Nama Mahasiswa"
+                value={namaMahasiswa}
+                onChange={(e) => handle("namaMahasiswa", e.target.value)}
               />
             </div>
 
@@ -24,6 +29,8 @@ export default function Home() {
                 type="text"
                 placeholder="Masukkan NIM"
                 aria-label="Masukkan NIM"
+                value={nimMahasiswa}
+                onChange={(e) => handle("nimMahasiswa", e.target.value)}
               />
             </div>
 
