@@ -1,4 +1,4 @@
-// File: C:\Users\Windows10\Desktop\SKRIPSI\bahasa-germany\app\latihan1\page.tsx
+// File: D:\react\skripsi\bahasa-germany\app\latihan1\page.tsx
 import * as entry from '../../../../app/latihan1/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
