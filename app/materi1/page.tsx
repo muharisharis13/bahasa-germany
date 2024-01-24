@@ -1,7 +1,7 @@
-import image1Materi1 from "../assets/Picture1_materi1.jpg";
-import image1Materi2 from "../assets/Picture2_materi1.png";
-import image1Materi3 from "../assets/Picture3_materi1.png";
-import image1Materi4 from "../assets/Picture4_materi1.png";
+import image1Materi1 from "@/public/Picture1_materi1.jpg";
+import image1Materi2 from "@/public/Picture2_materi1.png";
+import image1Materi3 from "@/public/Picture3_materi1.png";
+import image1Materi4 from "@/public/Picture4_materi1.png";
 import Image from "next/image";
 import Link from "next/link";
 
