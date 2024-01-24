@@ -35,12 +35,16 @@ export default function Home() {
             </div>
 
             <div className="flex items-center justify-between mt-4">
-              <Link
-                href="/materi1"
-                className="px-6 py-2 w-full text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-lg hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50 text-center"
-              >
-                Sign In
-              </Link>
+              {namaMahasiswa && nimMahasiswa ? (
+                <Link
+                  href="/materi1"
+                  className="px-6 py-2 w-full text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-lg hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50 text-center"
+                >
+                  Sign In
+                </Link>
+              ) : (
+                ""
+              )}
             </div>
           </div>
         </div>

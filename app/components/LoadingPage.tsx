@@ -1,25 +1,19 @@
 "use client";
 import { useStore } from "../zustand";
+import { Player, Controls } from "@lottiefiles/react-lottie-player";
+import loadingHand from "@/app/assets/lottie/loading-hand.json";
 
 const LoadingPage = () => {
   const loadingPage = useStore((state: any) => state.loadingPage);
 
   return (
     <div className="fixed bg-white/30 backdrop-blur-sm top-0 right-0 left-0 bottom-0 z-[9999] flex items-center justify-center w-screen h-screen overflow-hidden overflow-y-hidden">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        strokeWidth={1.5}
-        stroke="currentColor"
-        className="w-10 h-10 animate-spin"
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99"
+      <Player autoplay loop src={loadingHand} style={{ width: "50%" }}>
+        <Controls
+          visible={false}
+          buttons={["play", "repeat", "frame", "debug"]}
         />
-      </svg>
+      </Player>
     </div>
   );
 };
