@@ -466,8 +466,10 @@ export default function Materi1() {
                     Pengelompokan kata depan dalam bahasa Jerman seperti pada
                     gambar 4 (Bild 4).
                     <Image
-                      src={image1Materi1} // Route of the image file
+                      src="/Picture1_materi1.jpg" // Route of the image file
                       alt="Your Name"
+                      width={500}
+                      height={500}
                     />
                   </div>
                 </div>
@@ -614,8 +616,10 @@ export default function Materi1() {
                 <div className="flex items-center">
                   <div>atau</div>
                   <Image
-                    src={image1Materi2} // Route of the image file
+                    src="/Picture2_materi1.png" // Route of the image file
                     alt="Your Name"
+                    width={50}
+                    height={50}
                   />
                 </div>
                 <br />
@@ -626,8 +630,10 @@ export default function Materi1() {
                 <br />
                 <br />
                 <Image
-                  src={image1Materi3} // Route of the image file
+                  src="/Picture3_materi1.png" // Route of the image file
                   alt="Your Name"
+                  width={50}
+                  height={50}
                 />
                 daruber menggantikan über den Film
                 <br />
@@ -672,8 +678,10 @@ export default function Materi1() {
                 <br />
                 <br />
                 <Image
-                  src={image1Materi4} // Route of the image file
+                  src="/Picture4_materi1.png" // Route of the image file
                   alt="Your Name"
+                  width={50}
+                  height={50}
                 />
                 Amy: Ich ärgere mich auch über ihn.
                 <br />

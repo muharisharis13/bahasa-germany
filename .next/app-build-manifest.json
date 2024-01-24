@@ -1,22 +1,22 @@
 {
   "pages": {
     "/_not-found": [
-      "static/chunks/webpack-cebcdfe09018c8ed.js",
+      "static/chunks/webpack-59e07658496c1605.js",
       "static/chunks/fd9d1056-315afabab00b1865.js",
       "static/chunks/69-68ee9c1a9b8ab655.js",
       "static/chunks/main-app-b24b011fb21b7adb.js",
       "static/chunks/app/_not-found-72aa83026979592b.js"
     ],
     "/layout": [
-      "static/chunks/webpack-cebcdfe09018c8ed.js",
+      "static/chunks/webpack-59e07658496c1605.js",
       "static/chunks/fd9d1056-315afabab00b1865.js",
       "static/chunks/69-68ee9c1a9b8ab655.js",
       "static/chunks/main-app-b24b011fb21b7adb.js",
-      "static/css/3002afab4f25db80.css",
-      "static/chunks/app/layout-ed44a3c5f3639dd5.js"
+      "static/css/36913acadae38fee.css",
+      "static/chunks/app/layout-2eb585af7653ab96.js"
     ],
     "/latihan1/page": [
-      "static/chunks/webpack-cebcdfe09018c8ed.js",
+      "static/chunks/webpack-59e07658496c1605.js",
       "static/chunks/fd9d1056-315afabab00b1865.js",
       "static/chunks/69-68ee9c1a9b8ab655.js",
       "static/chunks/main-app-b24b011fb21b7adb.js",
@@ -25,16 +25,16 @@
       "static/chunks/app/latihan1/page-cb86eac44e5673ca.js"
     ],
     "/materi1/page": [
-      "static/chunks/webpack-cebcdfe09018c8ed.js",
+      "static/chunks/webpack-59e07658496c1605.js",
       "static/chunks/fd9d1056-315afabab00b1865.js",
       "static/chunks/69-68ee9c1a9b8ab655.js",
       "static/chunks/main-app-b24b011fb21b7adb.js",
       "static/chunks/250-0a7fb6664ad603a6.js",
       "static/chunks/749-96fef2aff70d817b.js",
-      "static/chunks/app/materi1/page-fd1af17098083531.js"
+      "static/chunks/app/materi1/page-a8282f491b1434e7.js"
     ],
     "/page": [
-      "static/chunks/webpack-cebcdfe09018c8ed.js",
+      "static/chunks/webpack-59e07658496c1605.js",
       "static/chunks/fd9d1056-315afabab00b1865.js",
       "static/chunks/69-68ee9c1a9b8ab655.js",
       "static/chunks/main-app-b24b011fb21b7adb.js",
@@ -42,7 +42,7 @@
       "static/chunks/app/page-5a6ee3a74c84ed41.js"
     ],
     "/result/page": [
-      "static/chunks/webpack-cebcdfe09018c8ed.js",
+      "static/chunks/webpack-59e07658496c1605.js",
       "static/chunks/fd9d1056-315afabab00b1865.js",
       "static/chunks/69-68ee9c1a9b8ab655.js",
       "static/chunks/main-app-b24b011fb21b7adb.js",
