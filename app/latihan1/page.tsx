@@ -298,7 +298,7 @@ const Latihan1 = () => {
       <section className="bg-white/95 backdrop-blur-sm shadow-lg min-h-[100vh] border-t-8 border-teal-500 max-w-full lg:max-w-6xl m-auto">
         <div className=" flex flex-col items-start px-2 lg:px-10 py-12 mx-auto text-left h-full">
           <div className=" min-h-[100vh] text-left">
-            <h4 className=" font-bold">Latihan</h4>
+            <h4 className=" font-bold">Übung</h4>
             <div className="latihan1 mb-10">
               <span className=" mb-2">
                 1 Lengkapi dengan preposisi yang diikuti kasus akusatif!
@@ -1258,7 +1258,7 @@ const Latihan1 = () => {
                 className="inline-flex items-center justify-center w-full px-6 py-2 text-white duration-300 bg-blue-600 rounded-lg hover:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80"
                 onClick={handlePeriksaJawaban}
               >
-                Periksa !
+                überprüfen !
               </button>
             </div>
           ) : (
@@ -1267,7 +1267,7 @@ const Latihan1 = () => {
                 onClick={handleLatihanSelanjut}
                 className="inline-flex items-center justify-center w-full px-6 py-2 text-white duration-300 bg-blue-600 rounded-lg hover:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80"
               >
-                Lihat Hasil
+                Ergebnisse anzeigen
               </button>
             </div>
           )}

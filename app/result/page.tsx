@@ -26,7 +26,7 @@ const Result = () => {
             Nama {namaMahasiswa} dengan NIM {nimMahasiswa}
           </h1>
           <p className="mt-6 text-base leading-7 text-gray-600">
-            Kamu Mendapatkan Point{" "}
+            Sie erhalten Punkte{" "}
             <div className=" font-bold text-xl">{nilai}</div>
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">

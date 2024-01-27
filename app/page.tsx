@@ -17,7 +17,7 @@ export default function Home() {
       <div className="w-full max-w-sm mx-auto overflow-hidden bg-white/50 backdrop-blur-sm rounded-lg shadow-md ">
         <div className="px-6 py-4">
           <p className="mt-1 text-center text-gray-500 ">
-            Masukkan Data Diri !
+            Persönliche Daten eingeben
           </p>
 
           <div>
@@ -25,8 +25,8 @@ export default function Home() {
               <input
                 className="block w-full px-4 py-2 mt-2 text-gray-700 placeholder-gray-500 bg-white border rounded-lg   focus:border-blue-400  focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
                 type="text"
-                placeholder="Nama Mahasiswa"
-                aria-label="Nama Mahasiswa"
+                placeholder="Name Mahasiswa"
+                aria-label="Name Mahasiswa"
                 value={namaMahasiswa}
                 onChange={(e) => handle("namaMahasiswa", e.target.value)}
               />
@@ -36,8 +36,8 @@ export default function Home() {
               <input
                 className="block w-full px-4 py-2 mt-2 text-gray-700 placeholder-gray-500 bg-white border rounded-lg   focus:border-blue-400  focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
                 type="text"
-                placeholder="Masukkan NIM"
-                aria-label="Masukkan NIM"
+                placeholder="Masukkan Martikelnummer"
+                aria-label="Masukkan Martikelnummer"
                 value={nimMahasiswa}
                 onChange={(e) => handle("nimMahasiswa", e.target.value)}
               />
