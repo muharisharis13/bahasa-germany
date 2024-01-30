@@ -1,8 +1,8 @@
 # Gunakan image dari docker community yang sudah ada, disini menggunakan alpine-linux yang sudah terinstal node versi 16.17
 FROM node:latest as node
 # Jalankan perintah untuk update package list
-RUN apk update && \
-    apk add --no-cache curl
+# RUN apk update && \
+#     apk add --no-cache curl
 
 # Deskripsikan direktori project di dalam container docker nanti
 WORKDIR /app
