@@ -13,6 +13,6 @@ RUN npm install
 RUN npm run build
 
 # Definikan port yang akan digunakan dalam container docker
-EXPOSE 8081
+# EXPOSE 8081
 # Jalankan npm run start di terminal
 CMD ["npm", "start"]
