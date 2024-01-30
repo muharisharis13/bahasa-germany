@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { useStore } from "../zustand";
+import Image from "next/image";
 import { Player, Controls } from "@lottiefiles/react-lottie-player";
 import congratulationFish from "@/app/assets/lottie/congrat.json";
 
@@ -11,7 +12,7 @@ const Result = () => {
       <main className="grid min-h-full place-items-center bg-white px-6 py-24 sm:py-32 lg:px-8">
         <div className="text-center">
           {/* <p className="text-base font-semibold text-indigo-600">404</p> */}
-          <Player
+          {/* <Player
             autoplay
             loop
             src={congratulationFish}
@@ -21,9 +22,19 @@ const Result = () => {
               visible={false}
               buttons={["play", "repeat", "frame", "debug"]}
             />
-          </Player>
+          </Player> */}
+          <div className=" w-[40vw]">
+            <Image
+              src="/img_congrat.jpg" // Route of the image file
+              alt="Your Name"
+              width={0}
+              height={0}
+              sizes="100vw"
+              style={{ width: "100%", height: "auto", objectFit: "contain" }}
+            />
+          </div>
           <h1 className="mt-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-            Nama {namaMahasiswa} dengan NIM {nimMahasiswa}
+            Name {namaMahasiswa} dengan Martikelnummer {nimMahasiswa}
           </h1>
           <p className="mt-6 text-base leading-7 text-gray-600">
             Sie erhalten Punkte{" "}
