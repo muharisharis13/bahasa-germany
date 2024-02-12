@@ -236,32 +236,32 @@ const Latihan1 = () => {
   const calculateAnswer = async () => {
     await Object.keys(selectedJawabanSatu).forEach((item) => {
       if (selectedJawabanSatu[item] === jawabanBenarSatu[item]) {
-        setPoints((prevPoints) => prevPoints + 10);
+        setPoints((prevPoints) => prevPoints + 20);
       }
     });
     await Object.keys(selectedJawabanDua).forEach((item) => {
       if (selectedJawabanDua[item] === jawabanBenarDua[item]) {
-        setPoints((prevPoints) => prevPoints + 10);
+        setPoints((prevPoints) => prevPoints + 20);
       }
     });
     await Object.keys(selectedJawaban.tiga).forEach((item) => {
       if (selectedJawaban.tiga[item] === jawabanBenar.tiga[item]) {
-        setPoints((prevPoints) => prevPoints + 10);
+        setPoints((prevPoints) => prevPoints + 20);
       }
     });
     await Object.keys(selectedJawaban.empat).forEach((item) => {
       if (selectedJawaban.empat[item] === jawabanBenar.empat[item]) {
-        setPoints((prevPoints) => prevPoints + 10);
+        setPoints((prevPoints) => prevPoints + 20);
       }
     });
     await Object.keys(selectedJawaban.lima).forEach((item) => {
       if (selectedJawaban.lima[item] === jawabanBenar.lima[item]) {
-        setPoints((prevPoints) => prevPoints + 10);
+        setPoints((prevPoints) => prevPoints + 20);
       }
     });
     await Object.keys(selectedJawaban.enam).forEach((item) => {
       if (selectedJawaban.enam[item] === jawabanBenar.enam[item]) {
-        setPoints((prevPoints) => prevPoints + 10);
+        setPoints((prevPoints) => prevPoints + 20);
       }
     });
   };
@@ -301,7 +301,7 @@ const Latihan1 = () => {
             <h4 className=" font-bold">Übung</h4>
             <div className="latihan1 mb-10">
               <span className=" mb-2">
-                1 Lengkapi dengan preposisi yang diikuti kasus akusatif!
+                1 Ergänzt durch eine Präposition, gefolgt von einem Akkusativ!
               </span>
               <div className=" container-list-jawaban mt-2 pl-8">
                 <div
@@ -468,7 +468,7 @@ const Latihan1 = () => {
                 )}
               </div>
             </div>
-            <div className="latihan2 mb-10">
+            {/* <div className="latihan2 mb-10">
               <span className=" mb-2">
                 2 Lengkapi dengan preposisi yang diikuti kasus datif.
               </span>
@@ -1249,7 +1249,7 @@ const Latihan1 = () => {
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
 
           {!isCheckingMateri1 ? (

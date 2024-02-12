@@ -10,7 +10,7 @@ const Result = () => {
   return (
     <div>
       <main className="grid min-h-full place-items-center bg-white px-6 py-24 sm:py-32 lg:px-8">
-        <div className="text-center">
+        <div className="text-center flex flex-col items-center justify-center">
           {/* <p className="text-base font-semibold text-indigo-600">404</p> */}
           {/* <Player
             autoplay
@@ -23,14 +23,14 @@ const Result = () => {
               buttons={["play", "repeat", "frame", "debug"]}
             />
           </Player> */}
-          <div className=" w-[40vw]">
+          <div className=" w-[40vw] text-center flex items-center justify-center">
             <Image
               src="/img_congrat.jpg" // Route of the image file
               alt="Your Name"
               width={0}
               height={0}
               sizes="100vw"
-              style={{ width: "100%", height: "auto", objectFit: "contain" }}
+              style={{ width: "70%", height: "auto", objectFit: "contain" }}
             />
           </div>
           <h1 className="mt-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl">

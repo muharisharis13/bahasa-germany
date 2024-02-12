@@ -15,7 +15,7 @@ export default function Materi1() {
       }}
     >
       <section className="bg-white/95 backdrop-blur-sm shadow-lg max-w-full lg:max-w-6xl m-auto">
-        <div className=" px-2 lg:px-10 py-12 mx-auto  h-full">
+        {/* <div className=" px-2 lg:px-10 py-12 mx-auto  h-full">
           <div className=" h-full overflow-y-auto text-justify  min-h-[100vh]">
             <div className="header1 font-bold text-3xl items-center text-center mb-5">
               BAB I PREPOSISI <i>(die Präpositionen)</i>
@@ -698,6 +698,30 @@ export default function Materi1() {
           </div>
 
           <div className="inline-flex w-full mt-6 sm:w-auto">
+            <Link
+              href="/latihan1"
+              className="inline-flex items-center justify-center w-full px-6 py-2 text-white duration-300 bg-blue-600 rounded-lg hover:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80"
+            >
+              Übung
+            </Link>
+          </div>
+        </div> */}
+        <div className=" px-2 lg:px-10 py-12 mx-auto  h-full ">
+          <div className=" h-full overflow-y-auto text-justify  min-h-[90vh] text-2xl">
+            <div className="header1 font-bold text-3xl items-center text-center mb-5">
+              Die Präpositionen
+            </div>
+            <div className="mb-5">
+              Präpositionen sind Wörter, die in der Regel vor einer
+              Substantivphrase stehen und diese mit anderen Wörtern im Satz
+              verbinden, wie z. B. im Indonesischen di, ke, dari. Im Deutschen
+              folgt auf Präpositionen immer ein Kasus, entweder der Akkusativ,
+              Dativ, Akkusativ-Dativ oder Genitiv. Präpositionen verändern die
+              Form von Pronomen, Artikeln, Deklinationen und Adverbien.
+            </div>
+          </div>
+
+          <div className="inline-flex w-full  sm:w-auto">
             <Link
               href="/latihan1"
               className="inline-flex items-center justify-center w-full px-6 py-2 text-white duration-300 bg-blue-600 rounded-lg hover:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80"
