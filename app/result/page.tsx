@@ -25,7 +25,7 @@ const Result = () => {
           </Player> */}
           <div className=" w-[40vw] text-center flex items-center justify-center">
             <Image
-              src="/img_congrat.jpg" // Route of the image file
+              src="/result_2.gif" // Route of the image file
               alt="Your Name"
               width={0}
               height={0}
@@ -34,7 +34,7 @@ const Result = () => {
             />
           </div>
           <h1 className="mt-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-            Name {namaMahasiswa} dengan Martikelnummer {nimMahasiswa}
+            Name {namaMahasiswa} mit Martikelnummer {nimMahasiswa}
           </h1>
           <p className="mt-6 text-base leading-7 text-gray-600">
             Sie erhalten Punkte{" "}
@@ -45,7 +45,7 @@ const Result = () => {
               href="/"
               className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
-              Go back
+              zurück
             </a>
           </div>
         </div>
