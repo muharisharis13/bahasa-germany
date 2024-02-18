@@ -50,7 +50,7 @@ export default function Home() {
                     href="/tujuan_pembelajaran"
                     className="px-6 py-2 w-full text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-lg hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50 text-center"
                   >
-                    Sign In
+                    Einloggen
                   </Link>
                 ) : (
                   ""
@@ -61,8 +61,8 @@ export default function Home() {
         </div>
       </div>
       <div className="container-name-books flex items-center justify-center text-center w-full mb-[20vh]">
-        <span className=" bg-white p-10 text-start rounded-md mt-20 ml-72 whitespace-nowrap mr-[65vw] lg:mr-0">
-          Digitalisiert : Indah Surya Cerah Marpaung
+        <span className=" bg-white p-10 py-20 text-start rounded-md mt-24 ml-72 whitespace-nowrap mr-[65vw] lg:mr-0">
+          Digitalisert von : Indah Surya Cerah Marpaung
           <br />
           Die Betreurin : Dr. phil. Suci Pujiastuti, M.A.
         </span>

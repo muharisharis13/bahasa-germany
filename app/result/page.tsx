@@ -25,7 +25,7 @@ const Result = () => {
           </Player> */}
           <div className=" w-[40vw] text-center flex items-center justify-center">
             <Image
-              src="/img_congrat.jpg" // Route of the image file
+              src="https://usagif.com/wp-content/uploads/gify/herzlichen-gluckwunsch-9-usagif.gif" // Route of the image file
               alt="Your Name"
               width={0}
               height={0}
