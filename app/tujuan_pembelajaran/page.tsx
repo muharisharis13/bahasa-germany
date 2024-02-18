@@ -17,7 +17,7 @@ const TujuanPembelajaran = () => {
         <div className=" px-2 lg:px-10 py-12 mx-auto  h-full ">
           <div className=" h-full overflow-y-auto text-justify  min-h-[90vh] text-2xl">
             <div className="header1 font-bold text-3xl items-center text-center mb-5">
-              Lernziel aus das Buch “Buku Ajar Pembelajaran Tata Bahasa Jerman”
+              Lernziel aus das Buch “BUKU AJAR PEMBELAJARAN TATA BAHASA JERMAN”
             </div>
             <div className="mb-5">
               1. Die Studenten können Sätze mit Präpositionen mit dem Dativ
