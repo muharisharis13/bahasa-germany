@@ -37,8 +37,8 @@ export default function Home() {
                 <input
                   className="block w-full px-4 py-2 mt-2 text-gray-700 placeholder-gray-500 bg-white border rounded-lg   focus:border-blue-400  focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
                   type="text"
-                  placeholder=" Martikelnummer"
-                  aria-label=" Martikelnummer"
+                  placeholder="Matrikelnummer"
+                  aria-label="Matrikelnummer"
                   value={nimMahasiswa}
                   onChange={(e) => handle("nimMahasiswa", e.target.value)}
                 />
@@ -61,7 +61,16 @@ export default function Home() {
         </div>
       </div>
       <div className="container-name-books flex items-center justify-center text-center w-full mb-[20vh]">
-        <span className=" bg-white p-10 py-20 text-start rounded-md mt-24 ml-72 whitespace-nowrap mr-[65vw] lg:mr-0">
+        <span className=" bg-white p-10 lg:px-20  text-start rounded-md mt-24 ml-64 whitespace-nowrap mr-[65vw] lg:mr-4">
+          <div>
+            Geschrieben von :
+            <br />
+            Ahmad Sahat Pardamean, S.Pd., M.Pd
+            <br />
+            Tanti Kurnia Sari, S.Pd., M.Hum
+            <br />
+            Dra. Siti Kudriyah, M.Pd
+          </div>
           Digitalisert von : Indah Surya Cerah Marpaung
           <br />
           Die Betreurin : Dr. phil. Suci Pujiastuti, M.A.

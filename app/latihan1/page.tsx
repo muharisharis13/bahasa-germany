@@ -297,9 +297,9 @@ const Latihan1 = () => {
       {loadingPage && <LoadingPage />}
       <section className="bg-white/95 backdrop-blur-sm shadow-lg min-h-[100vh] border-t-8 border-teal-500 max-w-full lg:max-w-6xl m-auto">
         <div className=" flex flex-col items-start px-2 lg:px-10 py-12 mx-auto text-left h-full">
-          <div className=" min-h-[100vh] text-left">
+          <div className=" min-h-[100vh] text-left text-4xl">
             <h4 className=" font-bold">Übung</h4>
-            <div className="latihan1 mb-10">
+            <div className="latihan1 mb-10 mt-5">
               <span className=" mb-2">
                 1 Ergänzt durch eine Präposition, gefolgt von einem Akkusativ!
               </span>

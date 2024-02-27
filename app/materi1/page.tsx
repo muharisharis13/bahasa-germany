@@ -708,10 +708,10 @@ export default function Materi1() {
         </div> */}
         <div className=" px-2 lg:px-10 py-12 mx-auto  h-full ">
           <div className=" h-full overflow-y-auto text-justify  min-h-[90vh] text-2xl">
-            <div className="header1 font-bold text-3xl items-center text-center mb-5">
+            <div className="header1 font-bold text-6xl  items-center text-center mb-5">
               Die Präpositionen
             </div>
-            <div className="mb-5">
+            <div className="mb-5 text-5xl">
               Präpositionen sind Wörter, die in der Regel vor einer
               Substantivphrase stehen und diese mit anderen Wörtern im Satz
               verbinden, wie z. B. im Indonesischen di, ke, dari. Im Deutschen
