@@ -712,11 +712,11 @@ export default function Materi1() {
           </div>
         </div> */}
         <div className=" px-2 lg:px-10 py-12 mx-auto  h-full ">
-          <div className=" h-full overflow-y-auto text-justify  min-h-[90vh] text-2xl">
-            <div className="header1 font-bold text-6xl  items-center text-center mb-5">
+          <div className=" h-full overflow-y-auto text-justify  min-h-[50vh] text-2xl">
+            <div className="header1 font-bold text-4xl  items-center text-center mb-5">
               Die Präpositionen
             </div>
-            <div className="mb-5 text-5xl">
+            <div className="mb-2 text-3xl">
               Präpositionen sind Wörter, die in der Regel vor einer
               Substantivphrase stehen und diese mit anderen Wörtern im Satz
               verbinden, wie z. B. im Indonesischen di, ke, dari. Im Deutschen
@@ -727,7 +727,7 @@ export default function Materi1() {
           </div>
           <div className=" h-full overflow-y-auto text-left min-h-[90vh] text-2xl">
 
-            <div className="header1 font-bold text-5xl mb-5">
+            <div className="header1 font-bold text-4xl mb-5">
               <span className="font-bold">1.Die Präpositionen bis</span>
             </div>
             <div className="mb-5 text-3xl">
@@ -755,7 +755,9 @@ export default function Materi1() {
               </p>
 
             </div>
-            <div className="header1 font-bold text-5xl mb-5">
+            <br/>
+            <br/>
+            <div className="header1 font-bold text-4xl mb-5">
               <span className="font-bold">2. Die Präpositionen durch</span>
             </div>
             <div className="mb-5 text-3xl">
@@ -792,7 +794,9 @@ export default function Materi1() {
               </p>
 
             </div>
-            <div className="header1 font-bold text-5xl mb-5">
+            <br/>
+            <br/>
+            <div className="header1 font-bold text-4xl mb-5">
               <span className="font-bold">3. Die Präpositionen {formatText("bis", "font-bold underline")}</span>
             </div>
             <div className="mb-5 text-3xl">
@@ -815,7 +819,9 @@ export default function Materi1() {
               </p>
 
             </div>
-            <div className="header1 font-bold text-5xl mb-5">
+            <br/>
+            <br/>
+            <div className="header1 font-bold text-4xl mb-5">
               <span className="font-bold">4. Die Präpositionen für</span>
             </div>
             <div className="mb-5 text-3xl">
@@ -862,7 +868,9 @@ export default function Materi1() {
               </p>
 
             </div>
-            <div className="header1 font-bold text-5xl mb-5">
+            <br/>
+            <br/>
+            <div className="header1 font-bold text-4xl mb-5">
               <span className="font-bold">5. Die Präpositionen gegen</span>
             </div>
             <div className="mb-5 text-3xl">
@@ -896,7 +904,9 @@ export default function Materi1() {
               </p>
 
             </div>
-            <div className="header1 font-bold text-5xl mb-5">
+            <br/>
+            <br/>
+            <div className="header1 font-bold text-4xl mb-5">
               <span className="font-bold">6. Die Präpositionen ohne</span>
             </div>
             <div className="mb-5 text-3xl">
@@ -914,7 +924,9 @@ export default function Materi1() {
               </p>
 
             </div>
-            <div className="header1 font-bold text-5xl mb-5">
+            <br />
+            <br />
+            <div className="header1 font-bold text-4xl mb-5">
               <span className="font-bold">7. Die Präpositionen um</span>
             </div>
             <div className="mb-5 text-3xl">

@@ -13,7 +13,24 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+
+        {children}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              var audio = document.createElement("AUDIO")
+              document.body.appendChild(audio);
+              audio.src = "./musik.mp4"
+                audio.muted = false
+              document.addEventListener("DOMContentLoaded", function(event) {
+                
+              audio.play()
+            });
+                  `,
+          }}
+        ></script>
+      </body>
     </html>
   );
 }

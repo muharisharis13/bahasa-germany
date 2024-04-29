@@ -14,6 +14,7 @@ export default function Home() {
         backgroundPosition: "center",
       }}
     >
+
       <div className=" w-full">
         <div className="w-full max-w-sm mx-auto  overflow-hidden bg-white/50 backdrop-blur-sm rounded-lg shadow-md -mt-[5vh]">
           <div className="px-6 py-4">
@@ -75,7 +76,10 @@ export default function Home() {
           <br />
           Die Betreurin : Dr. phil. Suci Pujiastuti, M.A.
         </span>
+       
       </div>
+
     </div>
+
   );
 }
