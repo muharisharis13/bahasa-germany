@@ -14,9 +14,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-
+      
         {children}
-        <script
+      
+        {/* <script
           dangerouslySetInnerHTML={{
             __html: `
               var audio = document.createElement("AUDIO")
@@ -29,7 +30,7 @@ export default function RootLayout({
             });
                   `,
           }}
-        ></script>
+        ></script> */}
       </body>
     </html>
   );
