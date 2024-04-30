@@ -16,6 +16,10 @@ export default function RootLayout({
       <body>
       
         {children}
+         <audio autoPlay loop>
+          <source src="./musik.mp4" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
       
         {/* <script
           dangerouslySetInnerHTML={{
