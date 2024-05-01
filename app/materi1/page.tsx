@@ -19,6 +19,7 @@ export default function Materi1() {
         backgroundPosition: "center",
       }}
     >
+     
       <section className="bg-white/95 backdrop-blur-sm shadow-lg max-w-full lg:max-w-6xl m-auto">
         {/* <div className=" px-2 lg:px-10 py-12 mx-auto  h-full">
           <div className=" h-full overflow-y-auto text-justify  min-h-[100vh]">

@@ -1,3 +1,4 @@
+
 import type { Metadata } from "next";
 import "./globals.scss";
 
@@ -11,15 +12,20 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+    
   return (
     <html lang="en">
+     
       <body>
-      
-        {children}
-         <audio autoPlay loop>
-          <source src="./musik.mp4" type="audio/mpeg" />
+       <div>
+ <audio autoPlay controls id="audio">
+          <source src="/musik.mp4" type="audio/mpeg" />
           Your browser does not support the audio element.
         </audio>
+        {children}
+       </div>
+    
       
         {/* <script
           dangerouslySetInnerHTML={{
