@@ -375,7 +375,7 @@ const Latihan1 = () => {
                 </div>
                 {isCheckingMateri1 && (
                   <div className="jawaban-benar text-green-500 mb-2">
-                    jawaban : {jawabanBenarSatu.a}
+                    Antwort : {jawabanBenarSatu.a}
                   </div>
                 )}
                 <div
@@ -408,7 +408,7 @@ const Latihan1 = () => {
                 </div>
                 {isCheckingMateri1 && (
                   <div className="jawaban-benar text-green-500 mb-2">
-                    jawaban : {jawabanBenarSatu.b}
+                    Antwort : {jawabanBenarSatu.b}
                   </div>
                 )}
                 <div
@@ -433,7 +433,7 @@ const Latihan1 = () => {
                 </div>
                 {isCheckingMateri1 && (
                   <div className="jawaban-benar text-green-500 mb-2">
-                    jawaban : {jawabanBenarSatu.c}
+                    Antwort : {jawabanBenarSatu.c}
                   </div>
                 )}
                 <div
@@ -467,7 +467,7 @@ const Latihan1 = () => {
                 </div>
                 {isCheckingMateri1 && (
                   <div className="jawaban-benar text-green-500 mb-2">
-                    jawaban : {jawabanBenarSatu.d}
+                    Antwort : {jawabanBenarSatu.d}
                   </div>
                 )}
                 <div
@@ -501,7 +501,7 @@ const Latihan1 = () => {
                 </div>
                 {isCheckingMateri1 && (
                   <div className="jawaban-benar text-green-500 mb-2">
-                    jawaban : {jawabanBenarSatu.e}
+                    Antwort : {jawabanBenarSatu.e}
                   </div>
                 )}
               </div>
@@ -544,7 +544,7 @@ const Latihan1 = () => {
                 </div>
                 {isCheckingMateri1 && (
                   <div className="jawaban-benar text-green-500 mb-2">
-                    jawaban : {jawabanBenarSatu.f}
+                    Antwort : {jawabanBenarSatu.f}
                   </div>
                 )}
                 <div
@@ -577,7 +577,7 @@ const Latihan1 = () => {
                 </div>
                 {isCheckingMateri1 && (
                   <div className="jawaban-benar text-green-500 mb-2">
-                    jawaban : {jawabanBenarSatu.g}
+                    Antwort : {jawabanBenarSatu.g}
                   </div>
                 )}
                 <div
@@ -610,7 +610,7 @@ const Latihan1 = () => {
                 </div>
                 {isCheckingMateri1 && (
                   <div className="jawaban-benar text-green-500 mb-2">
-                    jawaban : {jawabanBenarSatu.h}
+                    Antwort : {jawabanBenarSatu.h}
                   </div>
                 )}
                 <div
@@ -641,7 +641,7 @@ const Latihan1 = () => {
                 </div>
                 {isCheckingMateri1 && (
                   <div className="jawaban-benar text-green-500 mb-2">
-                    jawaban : {jawabanBenarSatu.i}
+                    Antwort : {jawabanBenarSatu.i}
                   </div>
                 )}
                 <div
@@ -675,7 +675,7 @@ const Latihan1 = () => {
                 </div>
                 {isCheckingMateri1 && (
                   <div className="jawaban-benar text-green-500 mb-2">
-                    jawaban : {jawabanBenarSatu.j}
+                    Antwort : {jawabanBenarSatu.j}
                   </div>
                 )}
               </div>

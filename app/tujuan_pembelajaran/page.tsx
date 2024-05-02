@@ -23,32 +23,20 @@ const TujuanPembelajaran = () => {
             </div>
             <div className="mb-5 text-4xl">
               1.	Die Studenten sind in der Lage, Sätze mit Präpositionen zu bilden.
-              Indikatoren
+             
               <br/>
               <br/>
-              2.	Die Studenten verstehen und verwenden Präpositionen im Akkusativ
+            <div className="header1 font-bold text-3xl items-center text-center mb-5">
+              {/* Lernziel aus das Buch “BUKU AJAR PEMBELAJARAN TATA BAHASA JERMAN” */}
+               Indikatoren
+            </div>
+              1.	Die Studenten verstehen und verwenden Präpositionen im Akkusativ.
               <br/>
               <br/>
-              3.	Die Studenten sind in der Lage, Sätze mit Präpositionen im Akkusativ zu bilden.
+              2.	Die Studenten sind in der Lage, Sätze mit Präpositionen im Akkusativ zu bilden.
               <br/>
               <br/>
-              {/* 1. Die Studenten können Sätze mit Präpositionen mit dem Dativ
-              Akkusativ <br />
-              <br />
-              <br />
-              2. Die Studenten können Sätze mit Präpositionen mit dem Dativ{" "}
-              <br />
-              <br />
-              <br />
-              3. Die Studenten können Sätze mit Präpositionen mit Akkusativ oder
-              Dativ <br />
-              <br />
-              <br />
-              4. Die Studenten können Sätze mit Präpositionen mit Genitiv <br />
-              <br />
-              <br />
-              5. Die Studenten können Sätze mit Ersatzpräposition
-              (Präpositionalpronomen) */}
+             
             </div>
           </div>
 

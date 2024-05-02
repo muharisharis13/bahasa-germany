@@ -77,7 +77,7 @@ export default function Home() {
           </div>
           Digitalisert von : Indah Surya Cerah Marpaung
           <br />
-          Die Betreurin : Dr. phil. Suci Pujiastuti, M.A.
+          Die Betreurin von : Dr. phil. Suci Pujiastuti, M.A.
         </span>
        
       </div>
