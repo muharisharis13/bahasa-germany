@@ -34,7 +34,7 @@ export default function Materi1() {
           <div className=" h-full overflow-y-auto text-left min-h-[90vh] text-2xl">
 
             <div className="header1 font-bold text-4xl mb-5">
-              <span className="font-bold">1.Die Präpositionen entlang</span>
+              <span className="font-bold">1.Die Präpositionen bis</span>
             </div>
             <div className="mb-5 text-3xl">
               <p>
@@ -103,7 +103,7 @@ export default function Materi1() {
             <br/>
             <br/>
             <div className="header1 font-bold text-4xl mb-5">
-              <span className="font-bold">3. Die Präpositionen {formatText("bis", "font-bold underline")}</span>
+              <span className="font-bold">3. Die Präpositionen {formatText("entlang", "font-bold underline")}</span>
             </div>
             <div className="mb-5 text-3xl">
               <p>
