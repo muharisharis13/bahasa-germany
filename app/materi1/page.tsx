@@ -262,7 +262,7 @@ export default function Materi1() {
                 d. Die Präposition {formatText("um", "font-bold")} beschreibt einen Verlust oder eine Einbuße.<br />
                 Beispiele:<br />
                 1. Er trauert {formatText("um", "font-bold underline")} einen guten Freund.<br />
-                2. Er hat ihn {formatText("um", "font-bold underline")} seinen Erfolg gratuliert<br />
+                2. Er hat ihn {formatText("um", "font-bold underline")} seinen Erfolg gratuliert.<br />
 
 
               </p>
