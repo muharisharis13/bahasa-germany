@@ -103,7 +103,7 @@ export default function Materi1() {
             <br/>
             <br/>
             <div className="header1 font-bold text-4xl mb-5">
-              <span className="font-bold">3. Die Präpositionen {formatText("entlang", "font-bold underline")}</span>
+              <span className="font-bold">3. Die Präpositionen entlang</span>
             </div>
             <div className="mb-5 text-3xl">
               <p>
