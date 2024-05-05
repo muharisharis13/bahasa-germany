@@ -403,7 +403,7 @@ const Latihan1 = () => {
                     /> */}
                   </span>
                   <p>
-                    <i> morgen </i>
+                    <i> nächsten Montag muss die Arbeit fertig sein </i>
                   </p>
                 </div>
                 {isCheckingMateri1 && (
