@@ -36,10 +36,19 @@ export default function Materi1() {
             <div className="header1 font-bold text-4xl mb-5">
               <span className="font-bold">1.Die Präpositionen bis</span>
             </div>
+            
             <div className="mb-5 text-3xl">
               <p>
                 {formatText("Bis", "font-bold")} steht nur bei Orts- und Zeitangaben, die ohne Artikel verwendet werden. Mit Artikel steht {formatText("bis", "font-bold")} zusammen mit anderen Präpositionen, die dann den Fall bestimmen.
               </p>
+               <Image
+              src="/bis.png" // Route of the image file
+              alt="Your Name"
+              width={0}
+              height={0}
+              sizes="100vw"
+              style={{ width: "70%", height: "auto", objectFit: "contain" }}
+            />
               <p>
                 a. Die Präposition {formatText("bis", "font-bold")} gibt Ort und Zeit an.<br />
                 Beispiele :<br />
@@ -70,6 +79,14 @@ export default function Materi1() {
               <p>
                 {formatText("Durch", "font-bold")} wird nur zur Beschreibung von Ort, Zeit und Ursache und Wirkung in Passivsätzen verwendet. Mit dem Artikel {formatText("durch", "font-bold")} kann auch gezeigt werden, wie ein Vorgang abläuft.
               </p>
+                <Image
+              src="/durch.png" // Route of the image file
+              alt="Your Name"
+              width={0}
+              height={0}
+              sizes="100vw"
+              style={{ width: "70%", height: "auto", objectFit: "contain" }}
+            />
               <br />
               <p>
                 a. Die Präposition {formatText("durch", "font-bold")} beschreibt einen Ort.<br />
@@ -109,6 +126,14 @@ export default function Materi1() {
               <p>
                 Die Präposition {formatText("entlang", "font-bold")} kann vor oder hinter dem Nomen stehen.  Wenn {formatText("entlang", "font-bold")} vor dem Nomen steht, muss den Genitiv benutzt werden und wenn {formatText("entlang", "font-bold")} erst hinter dem Nomen kommt, dann steht das Nomen im Akkusativ
               </p>
+                <Image
+              src="/entlang.png" // Route of the image file
+              alt="Your Name"
+              width={0}
+              height={0}
+              sizes="100vw"
+              style={{ width: "70%", height: "auto", objectFit: "contain" }}
+            />
               <br />
               <p>
                 a. Die Präposition {formatText("entlang", "font-bold")} beschreibt die Richtung eines bestimmten Weges und wird normalerweise nach einem Substantiv gesetzt.<br />
@@ -134,6 +159,14 @@ export default function Materi1() {
               <p>
                 {formatText("Für", "font-bold")} wird nur verwendet, um eine Tätigkeit zu beschreiben, die für eine andere Person, anstelle einer anderen Person, für einen bestimmten Zeitraum ausgeübt wird. {formatText("Für", "font-bold")} kann auch verwendet werden, um einen Vergleich auszudrücken
               </p>
+                <Image
+              src="/fur.png" // Route of the image file
+              alt="Your Name"
+              width={0}
+              height={0}
+              sizes="100vw"
+              style={{ width: "70%", height: "auto", objectFit: "contain" }}
+            />
               <br />
               <p>
                 a. Die Präposition {formatText("für", "font-bold")} beschreibt eine Tätigkeit, die {formatText("für", "font-bold underline")} jemanden anderen ausgeführt wird.<br />
@@ -183,6 +216,14 @@ export default function Materi1() {
               <p>
                 {formatText("Gegen", "font-bold underline")} wird nur verwendet, um eine Bewegung mit unbestimmter Richtung, Zeit und Anzahl zu beschreiben. {formatText("Gegen", "font-bold underline")} kann auch Ablehnung ausdrücken
               </p>
+                <Image
+              src="/gegen.png" // Route of the image file
+              alt="Your Name"
+              width={0}
+              height={0}
+              sizes="100vw"
+              style={{ width: "70%", height: "auto", objectFit: "contain" }}
+            />
               <br />
               <p>
                 a. Die Präposition {formatText("gegen", "font-bold")} beschreibt eine Bewegung in eine Richtung, die zu einer Berührung führt.<br />
@@ -219,6 +260,14 @@ export default function Materi1() {
               <p>
                 Die Präposition {formatText("ohne", "font-bold")}  wird {formatText("ohne", "font-bold")} den Artikel bennutzt, wenn es nicht auf einen unbestimmten Zweck hin bestimmt
               </p>
+                <Image
+              src="/ohne.png" // Route of the image file
+              alt="Your Name"
+              width={0}
+              height={0}
+              sizes="100vw"
+              style={{ width: "70%", height: "auto", objectFit: "contain" }}
+            />
               <br />
               <p>
                 a. Die Präposition {formatText("ohne", "font-bold")} wird meist ohne Artikel gebraucht, wenn keine genauere Bestimmug nötig ist.<br />
@@ -239,6 +288,14 @@ export default function Materi1() {
               <p>
                 {formatText("Um", "font-bold")} steht oft in Verbindung mit „herum“. „Um … herum“ bedeutet, dass die Handlung rund {formatText("um", "font-bold")} das Nomen ausgeführt wird oder dass es sich {formatText("um", "font-bold")} eine ungefähre Zeitangabe handelt.
               </p>
+                <Image
+              src="/um.png" // Route of the image file
+              alt="Your Name"
+              width={0}
+              height={0}
+              sizes="100vw"
+              style={{ width: "70%", height: "auto", objectFit: "contain" }}
+            />
               <br />
               <p>
 
