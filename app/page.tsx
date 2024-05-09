@@ -2,8 +2,11 @@
 import Link from "next/link";
 import { useStore } from "./zustand";
 import bgBook from "@/public/bg_book.jpg";
+import { useEffect } from "react";
 export default function Home() {
   const { namaMahasiswa, nimMahasiswa, handle } = useStore();
+
+  
   return (
     <div
       className=" h-[100vh] m-auto flex flex-col items-center pt-24 justify-between bg-slate-300"
@@ -75,7 +78,7 @@ export default function Home() {
           </div>
           Digitalisert von : Indah Surya Cerah Marpaung
           <br />
-          Die Betreurin : Dr. phil. Suci Pujiastuti, M.A.
+          Die Betreurin von : Dr. phil. Suci Pujiastuti, M.A.
         </span>
        
       </div>

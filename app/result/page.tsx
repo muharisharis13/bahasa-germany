@@ -25,7 +25,7 @@ const Result = () => {
           </Player> */}
           <div className=" w-[40vw] text-center flex items-center justify-center">
             <Image
-              src="/result_2.gif" // Route of the image file
+              src="/jokari-krampe.gif" // Route of the image file
               alt="Your Name"
               width={0}
               height={0}

@@ -1,3 +1,4 @@
+
 import type { Metadata } from "next";
 import "./globals.scss";
 
@@ -11,16 +12,22 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+    
   return (
     <html lang="en">
+     
       <body>
-
-        {children}
-        <button id="btnAlert" style={{display:'none'}} >Alert</button>
-        <audio id="MyAudioElement" autoPlay style={{display:'none'}}>
-          <source src="musik.mp4" type="audio/mpeg"></source>
+       <div>
+ <audio autoPlay controls id="audio">
+          <source src="/musik.mp4" type="audio/mpeg" />
+          Your browser does not support the audio element.
         </audio>
-        <script
+        {children}
+       </div>
+    
+      
+        {/* <script
           dangerouslySetInnerHTML={{
             __html: `
               
@@ -36,7 +43,7 @@ export default function RootLayout({
            
                   `,
           }}
-        ></script>
+        ></script> */}
       </body>
     </html>
   );
