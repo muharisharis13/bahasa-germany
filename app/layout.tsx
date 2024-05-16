@@ -30,14 +30,17 @@ export default function RootLayout({
         {/* <script
           dangerouslySetInnerHTML={{
             __html: `
-              var audio = document.createElement("AUDIO")
-              document.body.appendChild(audio);
-              audio.src = "./musik.mp4"
-                audio.muted = false
-              document.addEventListener("DOMContentLoaded", function(event) {
+              
+              // var button = document.getElementById('btnAlert');
+              // setTimeout(function(){
+              //     button.click();
+              // },1000); 
+              
+              document.addEventListener('click', function() {
                 
-              audio.play()
-            });
+                document.getElementById('MyAudioElement').play()
+              });
+           
                   `,
           }}
         ></script> */}
