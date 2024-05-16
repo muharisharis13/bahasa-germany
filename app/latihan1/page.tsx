@@ -626,7 +626,7 @@ const Latihan1 = () => {
                 >
                   <p>9.</p>
                   <p>
-                    <i>Ihr geht die Straße Jalan Wilem Iskandar</i>
+                    <i>Ihr geht die Straße Jalan Willem Iskandar</i>
                   </p>
                   <span className="">
 
