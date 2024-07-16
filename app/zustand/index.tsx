@@ -6,16 +6,46 @@ const initialState = {
   materi1: {
     jawabanBenar: {
       satu: {
-        a: "Bis",
-        b: "Bis",
-        c: "Ohne",
-        d: "Für",
-        e: "Um",
-        f: "durch",
-        g: "gegen",
-        h: "entlang",
-        i: "entlang",
-        j: "gegen",
+        a: "Bis", // 1
+        b: "Bis", // 2
+        c: "Ohne", // 3
+        d: "Für", // 4
+        e: "Um", // 5
+        f: "Bis", // 6
+        g: "Durch", // 7
+        h: "Entlang", // 8
+        i: "Für", // 9
+        j: "Gegen", // 10
+        k: "Gegen", // 11
+        l: "Gegen", // 12
+        m: "Entlang", // 13
+        n: "Entlang", // 14
+        o: "Gegen", // 15
+        p: "Durch", // 16
+        q: "Für", // 17
+        r: "Um", // 18
+        s: "Bis", // 19
+        t: "Gegen", // 20
+        u: "bis", // 21
+        v: "bis", // 22
+        w: "durch", // 23
+        x: "durch", // 24
+        y: "entlang", // 25
+        z: "entlang", // 26
+        aa: "für", // 27
+        ab: "für", // 28
+        ac: "für", // 29
+        ad: "gegen", // 30
+        ae: "gegen", // 31
+        af: "ohne", // 32
+        ag: "ohne", // 33
+        ah: "um", // 34
+        ai: "um", // 35
+        aj: "gegen", // 36
+        ak: "um", // 37
+        al: "gegen", // 38
+        am: "für", // 39
+        an: "entlang" // 40
       },
       dua: {
         a: "Ab",
